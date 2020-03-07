@@ -1,0 +1,117 @@
+nav {
+	background-color: #A5D0D8;
+}
+.jumbotron {
+	background-color: #A5D0D8;
+    height: 500px;
+    justify-content: space-between;
+}
+.jumbotron h1 {
+	font-size: 40px;
+}
+.jumbotron img {
+	
+	height: 300px;
+}
+
+.circle i {
+	color: white;
+}
+.circle i:hover {
+	background-color: white;
+	border-radius: 50%;
+}
+.green {
+    background-color: #9BD1A6;
+
+}
+
+.green p {
+	font-size: 10px;
+}
+.photoshop {
+	background-color: #F0F0F0;
+}
+.photoshop p{
+	font-size: 13px;
+}
+
+
+.photoshop hr{
+	background-color: #F0F0F0;
+	padding:0;
+	margin: 0;
+}
+.pink {
+	background-color: pink;
+}
+.box {
+	background-color: white;
+	color:black;
+	margin: 0;
+	padding: 0;
+}
+.box i {
+	color: blue;
+	border-radius: 150%;
+	font-size: 20px;
+}
+
+.show more button {
+    text-align: center;
+}
+.box p {
+	color: gray;
+	padding: 20px;
+	padding-top: 0;
+}
+.blue {
+	background-color: #B5D4E0;
+}
+.bottom {
+	background-color: #3B3B3B;
+}
+.bottom hr {
+	border: solid .5px;
+	width: 90%;
+	color: black;
+}
+
+.form-group {
+	background-color: #3B3B3B;
+	margin: 0;
+}
+
+.bottom i {
+	color: grey;
+	font-size: 25px;
+	border-radius: 50%;
+}
+
+.social-media {
+	padding-left: 30px;
+}
+
+.social-media i {
+	padding-left: 30px;
+}
+
+@media (min-width: 900px) {
+.row {
+	display: flex;
+	margin: 10px;
+	text-align: justify;
+	align-content: flex-start;
+}
+
+.column {
+	flex-grow: 1;
+	margin: 1px;
+	text-align: center;
+}
+
+.column img {
+	height: 60px;
+	width: 90px;
+}
+}
